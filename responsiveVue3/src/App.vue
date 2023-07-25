@@ -1,7 +1,7 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+<script setup>
+import ResponsiveBase from './views/ResponsiveBase.vue'
 </script>
 
 <template>
-sbc
+    <ResponsiveBase />
 </template>
