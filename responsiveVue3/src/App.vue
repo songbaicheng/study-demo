@@ -1,6 +1,7 @@
 <script setup>
 import ResponsiveBase from './views/ResponsiveBase.vue'
 import Computed from './views/Computed.vue'
+import Watch from './views/Watch.vue'
 </script>
 
 <template>
@@ -11,6 +12,10 @@ import Computed from './views/Computed.vue'
     <span class="bold-italic-text">计算属性：</span>
     <br />
     <Computed />
+    <br />
+    <span class="bold-italic-text">监听属性：</span>
+    <br />
+    <Watch />
 </template>
 
 <style>
