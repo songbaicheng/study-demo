@@ -2,6 +2,7 @@
 import ResponsiveBase from './views/ResponsiveBase.vue'
 import Computed from './views/Computed.vue'
 import Watch from './views/Watch.vue'
+import LifeCycle from './views/LifeCycle.vue'
 </script>
 
 <template>
@@ -16,6 +17,10 @@ import Watch from './views/Watch.vue'
     <span class="bold-italic-text">监听属性：</span>
     <br />
     <Watch />
+    <br />
+    <span class="bold-italic-text">生命周期：</span>
+    <br />
+    <LifeCycle />
 </template>
 
 <style>
