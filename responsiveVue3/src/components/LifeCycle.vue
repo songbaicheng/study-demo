@@ -5,6 +5,10 @@ console.log('life cycle')
 let str = ref<string>('life cycle')
 let span = ref<HTMLSpanElement>()
 
+let change = () => {
+    str.value = 'i am chaged'
+}
+
 onBeforeMount(() => {
     console.log('创建之前', span)
 })
@@ -32,4 +36,5 @@ onBeforeUnmount(() => {
 
 <template>
     <span ref="span">{{ str }}</span>
+    <button @click="change">变变变</button>
 </template>
