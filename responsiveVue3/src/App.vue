@@ -3,6 +3,7 @@ import ResponsiveBase from './views/ResponsiveBase.vue'
 import Computed from './views/Computed.vue'
 import Watch from './views/Watch.vue'
 import LifeCycle from './views/LifeCycle.vue'
+import ParentChild from './views/ParentChild.vue'
 </script>
 
 <template>
@@ -21,6 +22,10 @@ import LifeCycle from './views/LifeCycle.vue'
     <span class="bold-italic-text">生命周期：</span>
     <br />
     <LifeCycle />
+    <br />
+    <span class="bold-italic-text">父子组件：</span>
+    <br />
+    <ParentChild />
 </template>
 
 <style>
