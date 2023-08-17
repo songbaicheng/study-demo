@@ -23,8 +23,11 @@ declare module 'vue' {
     ElMenuItemGroup: typeof import('element-plus')['ElMenuItemGroup']
     ElSubMenu: typeof import('element-plus')['ElSubMenu']
     ElTag: typeof import('element-plus')['ElTag']
+    Father: typeof import('./components/deliver/Father.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     Logos: typeof import('./components/Logos.vue')['default']
+    Son: typeof import('./components/deliver/Son.vue')['default']
     Tree: typeof import('./components/Tree.vue')['default']
+    Up: typeof import('./components/deliver/Up.vue')['default']
   }
 }

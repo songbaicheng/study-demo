@@ -11,6 +11,10 @@
       </div>
     </div>
     <component :is="comId"></component>
+    <hr>
+    <span>依赖传递</span>
+    <hr>
+    <Up />
   </el-config-provider>
 </template>
 
@@ -21,6 +25,8 @@ import TreeVue from '~/components/Tree.vue'
 import A from '~/components/A.vue'
 import B from '~/components/B.vue'
 import C from '~/components/C.vue'
+// 依赖注入测试组件
+import Up from '~/components/deliver/Up.vue'
 
 interface Tree {
   name: string,
