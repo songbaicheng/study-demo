@@ -6,4 +6,4 @@
 - root
     - myFirstVue3：学习 Vue3 语法。
     - responsiveVue3：响应式数据案例。
-    - identify-excel：拖拽识别Excel并实现在线修改
+    - piniaVue3：集成pinia来代替Vuex
